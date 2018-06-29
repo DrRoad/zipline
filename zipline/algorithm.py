@@ -34,7 +34,7 @@ from six import (
     string_types,
     viewkeys,
 )
-from trading_calendars.trading_calendar import days_at_time
+from trading_calendars.utils.pandas_utils import days_at_time
 from trading_calendars import get_calendar
 
 from zipline._protocol import handle_non_market_minutes
